@@ -49,7 +49,7 @@ obj?.foo.bar?.baz; // Only access `foo` if `obj` exists, and `baz` if
                    // `bar` exists
 ```
 ### @babel/plugin-proposal-do-expressions
-Mostly I found it useful for JSX, but it plays well on other scenarios as well
+Mostly I found it useful for JSX, but it plays well in other scenarios as well
 ```jsx
 const Component = props => (
   <div className='myComponent'>
