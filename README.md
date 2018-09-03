@@ -1,8 +1,13 @@
 # babel-preset-primavera
 
 Opinionated babel-preset with my favorite [TC39](https://github.com/tc39/proposals) proposals as babel plugins and the @babel/preset-env
+## Install
+```bash
+# make sure you have @babel/core@7 installed
+npm i --save-dev babel-preset-primavera
 
-Includes
+```
+## Includes
 ### @babel/plugin-proposal-function-bind
 My favorite because allows me a lot of sugar for `.bind()` and I like sweet things:
 ```js
