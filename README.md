@@ -7,6 +7,13 @@ Opinionated babel-preset with my favorite [TC39](https://github.com/tc39/proposa
 npm i --save-dev babel-preset-primavera
 
 ```
+
+```json
+// .babelrc
+{
+  "presets": ["babel-preset-primavera"]
+}
+```
 ## Includes
 ### @babel/plugin-proposal-function-bind
 My favorite because allows me a lot of sugar for `.bind()` and I like sweet things:
