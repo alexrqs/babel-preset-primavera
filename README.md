@@ -80,7 +80,8 @@ let a = do {
   } else {
     'small';
   }
-}```
+}
+```
 
 ### @babel/plugin-proposal-logical-assignment-operators
 ```js
