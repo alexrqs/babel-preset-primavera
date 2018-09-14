@@ -13,9 +13,7 @@ module.exports = function() {
 
     presets: [
       ["@babel/preset-env", {
-        "targets": {
-          "browsers": ["last 4 versions", "safari >= 7"]	
-        },
+        "targets": "> 0.25%, not dead"
       }]
     ],
   }
